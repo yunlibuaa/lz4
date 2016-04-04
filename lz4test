@@ -1,0 +1,9 @@
+'''
+Created on Apr 4, 2016
+
+@author: root
+'''
+from lz4r.__main__ import main
+
+if __name__ == '__main__':
+    main()
