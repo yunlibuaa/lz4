@@ -4,8 +4,7 @@ import binascii
 import lz4f
 import struct
 import sys
-import tarfile
-from tarfile import ReadError
+
 
 if sys.version_info.major >= 3:
     from builtins import open as _open
