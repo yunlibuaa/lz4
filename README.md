@@ -2,7 +2,7 @@ Overview
 --------
 
   1. lz4f - C-Module containing python bindings for all lz4frame functions.
-  2. lz4lib - a file wrapper for lz4r compressed files. 
+  2. lz4lib - a file wrapper class for lz4r compressed files. 
 
 ##Usage
 
