@@ -9,12 +9,17 @@ Overview
 usage: lz4test [-h] [-c] [-x] [output] input
 
 positional arguments:
+
   output      Optional output target.
+
   input       The targeted input.
 
 optional arguments:
+
   -h, --help  show this help message and exit
+
   -c          Compress directory to .lz4r.
+
   -x          Decompress file ends in .lz4r.
 
 
