@@ -46,7 +46,7 @@ def decompressDir(name):
     """
     :type string: name      - name of dir to decompress
     Generic decompress method for a directory. Removes .lz4r to original file name
-    for output, unless outname is provided.
+    for output.
     """
     tar_file = '.'.join(['tmp', 'tar'])
     infile = Lz4File.open(name)
